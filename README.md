@@ -1,5 +1,4 @@
 # 🚀 Linux、Python 与 Git 基础训练项目
-
 ## 📂 项目结构（Directory Structure）
 
 ```text
@@ -7,7 +6,7 @@ first/
 ├── main.py          # 主程序脚本（包含 NumPy 矩阵平方测试）
 ├── requirements.txt # 
 └── README.md        # 本说明文档
-
+```
 ## 🛠️ 环境配置说明（Environment Setup）
 为了确保代码能够顺利运行并具有良好的可复现性，请在 Linux 系统中使用 Conda 部署独立的虚拟环境：
 
@@ -23,6 +22,7 @@ first/
 在激活的 lab_base 环境下，运行以下命令安装核心计算库：
     ```bash
     pip install numpy
+
 ## 💻 如何运行项目（Usage）
 环境配置完成后，每次运行项目只需简单三步：
 1.进入项目根目录：
@@ -34,3 +34,4 @@ first/
 3.使用当前环境运行主程序：
     ```Bash
     python main.py
+
