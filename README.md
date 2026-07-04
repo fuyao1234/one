@@ -18,6 +18,7 @@
 2.激活环境
    ```bash
    conda activate lab_base
+
 3.运行代码
    ```bash
    python main.py
