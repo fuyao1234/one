@@ -1,9 +1,5 @@
 # 🚀 Linux、Python 与 Git 基础训练项目
 
-本项目是雄星的第一个双系统联动开发项目。实现了在 Windows (Antigravity IDE) 编写代码，通过 SSH 远程连接 Linux 虚拟机进行后台计算，并使用 Git 与 GitHub 进行版本控制与云端备份的标准化科研工作流。
-
----
-
 ## 📂 项目结构（Directory Structure）
 
 ```text
@@ -11,7 +7,8 @@ first/
 ├── main.py          # 主程序脚本（包含 NumPy 矩阵平方测试）
 ├── requirements.txt # 
 └── README.md        # 本说明文档
-🛠️ 环境配置说明（Environment Setup）
+
+## 🛠️ 环境配置说明（Environment Setup）
 为了确保代码能够顺利运行并具有良好的可复现性，请在 Linux 系统中使用 Conda 部署独立的虚拟环境：
 
 1. 创建并激活 Conda 环境
@@ -26,7 +23,7 @@ first/
 在激活的 lab_base 环境下，运行以下命令安装核心计算库：
     ```bash
     pip install numpy
-💻 如何运行项目（Usage）
+## 💻 如何运行项目（Usage）
 环境配置完成后，每次运行项目只需简单三步：
 1.进入项目根目录：
     ```Bash
