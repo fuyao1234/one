@@ -15,6 +15,7 @@ first/
     ```bash
     # 创建一个名为 lab_base 的干净 Python 3.10 环境
     conda create -n lab_base python=3.10 -y
+    ```
 
     ```bash
     # 激活并进入该环境
