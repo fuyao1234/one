@@ -3,9 +3,9 @@
 
 ```text
 first/
-├── main.py          # 主程序脚本（包含 NumPy 矩阵平方测试）
-├── requirements.txt # 
-└── README.md        # 本说明文档
+├── main.py          
+├── requirements.txt 
+└── README.md        
 ```
 ## 🛠️ 环境配置说明（Environment Setup）
 为了确保代码能够顺利运行并具有良好的可复现性，请在 Linux 系统中使用 Conda 部署独立的虚拟环境：
